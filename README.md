@@ -7,6 +7,8 @@ Task 2: Train an LSTM model to learn the Taylor expansion of each function.
 
 Task 3: Similarly Train a Transformer model to learn the Taylor expansion of each function.
 
+---
+
 We have implemented two neural network architectures namely LSTM and Transformer designed to translate mathematical expressions into their Taylor series expansions. The system works with mathematical expressions in prefix notation for efficient computation.
 
 The first part of the code focuses on data generation, using a custom MathExpression class that handles mathematical operations in prefix notation. This class can generate random expressions, convert between notations, and work with the SymPy library for symbolic mathematics. It creates training data pairs consisting of original expressions and their corresponding Taylor series expansions.
