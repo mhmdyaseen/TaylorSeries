@@ -20,3 +20,11 @@ The second part implements two neural network architectures:
 
 Both models are trained on the generated dataset with appropriate loss functions and optimizers, evaluating their performance on mathematical expression translation tasks. The code also includes training loops and evaluation functions for both architectures.
 
++ At the end of 100 epochs LSTM model acheives an excellent accuracy of 100%. Similarly Transformer also acheives a good accuracy of 97.15%
+
+### References
+
++ https://github.com/hbprosper/symbolic-ai
++ Deep Learning for Symbolic Mathematics: https://arxiv.org/pdf/1912.01412
++ Attention is all you need: https://arxiv.org/pdf/1706.03762
++ https://github.com/tm4roon/pytorch-seq2seq
